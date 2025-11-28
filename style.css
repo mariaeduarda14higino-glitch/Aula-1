@@ -1,0 +1,49 @@
+/* Estilo geral da página */
+body {
+font-family: Arial, sans-serif; background-color: #f0f0f0;
+
+margin: 0;
+padding: 0; }
+/* Estilo do cabeçalho */
+header { background-color: #333; color: white;
+padding: 20px; text-align: center;
+}
+/* Estilo do conteúdo principal */
+main {
+padding: 20px;
+}
+/* Estilo do rodapé */
+footer {
+background-color: #333; color: white;
+text-align: center; padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+/* Exemplo de estilo para um título */
+h1 {
+color: #444;
+}
+
+/* Código para Estilizar Imagens - Versão Menor */
+
+.imagem-conteudo {
+    /* Define uma largura máxima de 50% do contêiner.
+       Você pode mudar para 30% para algo ainda menor, ou 300px para um tamanho fixo. */
+    max-width: 50%; /* <--- ALTERADO para 50% */
+    
+    /* Mantém a proporção da imagem */
+    height: auto;
+    
+    /* Faz a imagem se comportar como um bloco para poder centralizá-la */
+    display: block;
+    
+    /* Centraliza a imagem horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Adiciona um pouco de espaço e estilo (mantido) */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
